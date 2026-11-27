@@ -24,7 +24,7 @@ Node.js, Express.js, SQLite (better-sqlite3)
 3. Запустите сервер:
    ```bash
    npm start
-4. Для работы с базой данных
+4. Для работы с базой данных создаем второй терминал:
    ```bash
    # просмотр записей
    curl.exe http://localhost:3000/api/books
