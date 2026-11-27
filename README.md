@@ -34,6 +34,7 @@ Node.js, Express.js, SQLite (better-sqlite3)
    curl.exe http://localhost:3000/api/books?author=Гайдар                                                  :: фильтрация по author=Гайдар
 ## Результаты
 ![Изначальный список книг в БД](img/1.png)
+Изначальный список книг в БД
 ## Структура проекта
 ```
 web lab 7/
