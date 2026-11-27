@@ -24,6 +24,14 @@ Node.js, Express.js, SQLite (better-sqlite3)
 3. Запустите сервер:
    ```bash
    npm start
+4. Для работы с базой данных
+   ```bash
+   curl.exe http://localhost:3000/api/books                                                                :: просмотр записей
+   curl.exe -X POST http://localhost:3000/api/books -H "Content-Type: application/json" -d "@body.json"    :: добавление записи, предварительно задав параметры в body.json
+   curl.exe -X PATCH http://localhost:3000/api/books/1                                                     :: просмотр записи с id=1
+   curl.exe "http://localhost:3000/api/books?available=true/false"                                         :: просмотр записей с available=1/0
+   curl.exe -X DELETE http://localhost:3000/api/books/1                                                    :: удаление записи по id=1
+   curl.exe http://localhost:3000/api/books?author=Гайдар                                                  :: фильтрация по author=Гайдар
 ## Структура проекта
 ```
 web lab 7/
