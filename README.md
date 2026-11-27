@@ -32,9 +32,6 @@ Node.js, Express.js, SQLite (better-sqlite3)
    curl.exe "http://localhost:3000/api/books?available=true/false"                                         :: просмотр записей с available=1/0
    curl.exe -X DELETE http://localhost:3000/api/books/1                                                    :: удаление записи по id=1
    curl.exe http://localhost:3000/api/books?author=Гайдар                                                  :: фильтрация по author=Гайдар
-## Результаты
-![Изначальный список книг в БД](img/1.png)
-Изначальный список книг в БД
 ## Структура проекта
 ```
 web lab 7/
